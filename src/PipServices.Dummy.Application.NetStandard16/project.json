@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "define": [ "CORE_NET" ]
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "PipServices.Commons": "1.0.33",
+    "PipServices.Container": "1.0.9",
+    "PipServices.Data": "1.0.9",
+    "PipServices.Net": "1.0.9" },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  }
+}

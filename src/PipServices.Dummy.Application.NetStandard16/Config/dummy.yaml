@@ -1,0 +1,11 @@
+- descriptor: "pip-services-commons:logger:console:*:*"
+  level: "trace"
+
+- descriptor: "pip-services-dummies:controller:*:*:*"
+  message: "Hello from dummy controller #1"
+  
+- descriptor: "pip-services-dummies:service:rest:*:*"
+  message: "Hello from dummy rest service"
+
+- descriptor: "pip-services-dummies:persistance:*:*:*"
+  message: "Hello from dummy persistance"

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "PipServices.Commons": "1.0.33",
+    "PipServices.Container": "1.0.9",
+    "PipServices.Data": "1.0.9",
+    "PipServices.Dummy.Application.NetStandard16": "1.0.0-*",
+    "PipServices.Net": "1.0.9",
+    "xunit": "2.2.0-beta4-build3444"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  },
+
+  "testRunner": "xunit"
+}
